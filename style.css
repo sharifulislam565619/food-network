@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.top-banner{
+    display: flex;
+    margin-bottom: 150px;
+}
+img{
+    width: 100%;
+}
+h1{
+    font-size: 60px;
+    opacity: 0.7;
+}
+h2{
+    opacity: 0.7;
+    font-size: 45px;
+    margin-bottom: 0;
+}
+h3{
+    font-size: 30px;
+}
+p{
+    opacity: 0.7;
+    
+}
+.my-img img{
+  width: 78%;
+}
+.hr-style_1{
+    border: 3px dashed #4d4947;
+    width: 200px;
+    margin-left: 0;
+}
+.orange-color{
+    color: orange;
+}
+.half-width{
+    width: 50%;
+    margin-left: 7%;
+}
+.link-btn{
+    text-decoration: none;
+    background-image: linear-gradient(50deg,orange,red);
+    padding: 15px 30px;
+    display: inline-block;
+    position: relative;
+    top: 30px;
+    margin-top: 25px;
+    color: #ffffff;
+    opacity: 0.7;
+    border-radius:30px;
+    -webkit-border-radius:30px;
+    -moz-border-radius:30px;
+    -ms-border-radius:30px;
+    -o-border-radius:30px;
+   
+}
+.about-section{
+    display: flex;
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+    background-size:100%;
+    margin-bottom: 100px;
+}
+.my-img{
+    width: 50%;
+    margin-left:10%;
+}
+.about-me{
+    width: 50%;
+    margin-right:10%;
+    margin-top:150px;
+}
+.my-recipe-section h2{
+    text-align: center;
+}
+.hr-style_2{
+    background-image: url(images/hr-style.png);
+    height: 30px;
+    background-repeat: no-repeat;
+    border: none;
+    width: 600px;
+}
+
+.my-recipe-aria{
+    display: flex;
+   
+}
+.my-recipe {
+    width: 22%;
+    margin-top: 30px;
+    margin-left: 5%;
+    padding: 2% 2%;
+    margin-bottom: 150px;
+    box-shadow: 5px 8px 30px #bbbbbb;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.social-followers{
+    display: flex;
+    margin:0 7%;
+    padding: 0 5%;
+    box-shadow: 10px 10px 40px rgb(192, 192, 192);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin-bottom: 150px;
+}
+.social-followers h1{
+    font-size: 50px;
+    opacity: 1;
+}
+.followers{
+    width: 30%;
+    margin-left: 9%;
+}
+footer{
+    background-color: #0B0D17;
+}
+footer h2{
+    text-align: center;
+    color: #5B5B5B;
+    font-size: 30px;
+    padding-top: 30px;
+}
+footer p{
+    color: white;
+    text-align: center;
+    padding-bottom: 100px;
+    opacity: 0.7;
+    font-size: 16px;
+    margin-bottom: 0;
+    
+}
