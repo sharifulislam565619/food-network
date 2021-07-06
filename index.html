@@ -10,10 +10,29 @@
             href="images/berger-fav.jpg"
             type="image/x-icon"
         />
+
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-        <section class="top-banner">
+        <section>
+            <header class="header">
+                <div class="logo">
+                    <img src="images/logo.png" alt="logo" />
+                </div>
+                <div class="menu">
+                    <nav>
+                        <ul>
+                            <li><a href="#top-banner">Home</a></li>
+                            <li><a href="#about-section">About 
+                                Me</a></li>
+                            <li><a href="#my-recipe-section">Our Recipes</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+        </section>
+        <section id="top-banner">
             <div class="half-width">
                 <h1>
                     <span class="orange-color">Skip</span> The Diet,<br />
@@ -33,7 +52,7 @@
                 <img src="images/top-banner.png" alt="A man with food" />
             </div>
         </section>
-        <section class="about-section">
+        <section id="about-section">
             <div class="my-img">
                 <img src="images/sharif.png" alt="Author shariful's picture" />
             </div>
@@ -46,11 +65,11 @@
                     healthy food, please order fast don't late. Eat healthy to
                     live healthy, Live healthy to live happy
                 </p>
-                <a class="link-btn" href="#">Contact Me</a>
+                <a class="link-btn" href="#contact">Contact Me</a>
             </div>
         </section>
-        <section class="my-recipe-section">
-            <h2>My Recipies</h2>
+        <section id="my-recipe-section">
+            <h2>Our Recipes</h2>
             <hr class="hr-style_2" />
             <p style="text-align: center">
                 We offer a wide variety of food. Below are some special menus
@@ -106,6 +125,23 @@
                 </div>
             </div>
         </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <hr class="hr-style_3" />
+            <div class="contact-aria">
+                <label for="first_name">First name: </label>
+                <input type="text" placeholder="First name" /><br />
+                <label for="last_name">Last name: </label>
+                <input type="text" placeholder="last name" /><br />
+                <label for="Email">Email addr: </label>
+                <input type="text" placeholder="Email address" /><br />
+                <label for="message">Message: </label>
+                <textarea name="" id="" cols="30" rows="10"></textarea><br />
+                <input type="submit" /><br />
+            </div>
+        </section>
+
         <footer>
             <h2><span class="orange-color">FOOD</span> NETWORK</h2>
             <p>Eat healthy to live healthy. Live healthy to live happy.</p>
